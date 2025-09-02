@@ -87,7 +87,7 @@ export const Home = () => {
       className="min-h-screen flex items-center justify-center relative"
     >
       <RevealOnScroll>
-        <div className="text-center z-10 px-4 flex flex-col">
+        <div id="s" className="text-center z-10 px-4 flex flex-col">
           <input type="text" value={formdata.introhead} onChange={(e)=>setFormdata({...formdata,introhead:e.target.value})} className="text-center text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent  leading-right">
             {/* Hi, I'm Pedro Tech */}
           </input>
